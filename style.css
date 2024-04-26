@@ -96,7 +96,7 @@ nav ul li a:hover{
   }
 .fa-user{
     color: var(--color-primario);
-    transition: 2s;
+    transition: 1s;
 }
 .fa-user:hover{
     color: var(--color-terciario);
@@ -121,8 +121,9 @@ nav ul li a:hover{
   
 }
 .btn-cancelar{
-    font-size: 0.5em;
+    font-size: 0.8em;
 }
+
 .contenedor-foot p a {
     text-decoration: none;
     color: var(--color-primario);
@@ -135,4 +136,26 @@ nav ul li a:hover{
     transition: 0.5s;
  
   }
+  .nosotros ,.productos ,.servicios ,.clientes{
+    display: flex;
+    align-items:baeline;
+    flex-direction: column;
+   
+  }
+  /* .productos{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+  }
+  .servicios{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+  }
+  .clientes{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+  }
+  */
   
